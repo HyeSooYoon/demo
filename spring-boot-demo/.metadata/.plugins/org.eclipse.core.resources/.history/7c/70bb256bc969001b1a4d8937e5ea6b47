@@ -1,0 +1,19 @@
+package com.example.demo.common;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+public enum ReturnCode {
+	
+	private final String code 	 = "";
+	private final String message = "";
+	
+	
+	ReturnCode(String code, String message)
+	{
+		
+	}
+	
+
+}

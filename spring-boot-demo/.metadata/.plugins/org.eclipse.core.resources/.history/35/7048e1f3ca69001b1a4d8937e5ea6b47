@@ -1,0 +1,27 @@
+package com.example.demo.common;
+
+import java.util.Arrays;
+
+public enum ReturnCode {
+	
+	INUSE("사용중"), 
+	UNUSED("미사용"), 
+	DELETED("삭제"), 
+	UNKNOWN("알수없음");
+
+	private final String description;
+
+	ReturnCode(String description) { 
+		this.description = description; 
+	}
+	
+	public static ReturnCode find(String description) { 
+		return Arrays.stream(values()) 
+				.filter(accountStatus -> accountStatus.description.equals(description)) 
+				.findAny() 
+				.orElse(UNKNOWN); 
+		}
+
+
+
+}
