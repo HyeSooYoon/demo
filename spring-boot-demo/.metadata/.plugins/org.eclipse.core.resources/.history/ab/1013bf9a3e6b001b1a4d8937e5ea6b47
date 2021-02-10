@@ -1,0 +1,36 @@
+package com.example.demo.dto;
+
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
+import javax.validation.constraints.Size;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
+
+@Builder
+public class UserDto {
+	
+	@NotNull(message = "id는 필수 값입니다.")
+    @Size(min = 5, max = 10)
+    private String id;
+
+    @Max(value = 25, message = "25세 이하만 가능합니다.")
+    @Min(value = 18, message = "18살 이상만 가능합니다.")
+    private int age;
+
+    @Pattern(regexp = "[a-zA-z0-9]+@[a-zA-z]+[.]+[a-zA-z.]+")
+    private String email;
+
+}
+
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="com.example.demo.common.ReturnCode"/>
+    <fullyQualifiedTypeName name="jdk.nashorn.internal.objects.annotations.Getter"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="lombok.Value"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+    <fullyQualifiedTypeName name="javax.validation.constraints.NotNull"/>
+    <fullyQualifiedTypeName name="com.sun.java.util.jar.pack.Package.Class.Member"/>
+    <fullyQualifiedTypeName name="javax.validation.constraints.Email"/>
+</qualifiedTypeNameHistroy>

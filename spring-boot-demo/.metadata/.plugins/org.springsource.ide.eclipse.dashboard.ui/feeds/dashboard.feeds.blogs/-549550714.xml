@@ -5,7 +5,41 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2021-02-05T04:24:00Z</updated>
+  <updated>2021-02-09T17:42:00Z</updated>
+  <entry>
+    <title>This Week in Spring - February 9th, 2020</title>
+    <link rel="alternate" href="https://spring.io/blog/2021/02/09/this-week-in-spring-february-9th-2020" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2021-02-09:4356</id>
+    <updated>2021-02-09T17:42:00Z</updated>
+    <content type="html">&lt;p&gt;Hi, Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! &lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m &lt;em&gt;just&lt;/em&gt; about to give a 2h presentation &lt;a href="https://twitter.com/VMwareTanzuNL/status/1358876516256514055"&gt;for the OOP conference&lt;/a&gt;. It&amp;rsquo;s live. It&amp;rsquo;ll be fun. Join us? &lt;/p&gt;
+&lt;p&gt;How&amp;rsquo;ve you been? You realize it&amp;rsquo;s already the second week of February? Chinese New Year, a holiday celebrated by more than two billion people, begins on the 12th of February. So, seeing as how we won&amp;rsquo;t get to talk again until after, let me wish everyone who celebrates: ãæÒ´öá?! &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2021/02/04/a-bootiful-podcast-rsocket-legend-and-new-reactor-team-member-oleh-dokuka"&gt;A Bootiful Podcast: RSocket legend and new Reactor team member Oleh Dokuka&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/linux-china/rsocket-load-balancing"&gt;Alibaba&amp;rsquo;s Jacky Chan has put together an awesome project that does client-side load balancing with Spring Cloud, but based on RSocket - very convenient!&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2021/02/03/demystifying-spring-cloud-stream-producers-with-apache-kafka-partitions"&gt;Demystifying Spring Cloud Stream producers with Apache Kafka partitions&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://blogs.vmware.com/opensource/2021/02/02/2021-a-look-ahead-for-open-source-at-vmware/"&gt;2021: A Look Ahead for Open Source at VMware&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/sivalabs/status/1357497634320117760?s=12"&gt;A New Yeoman code generator for Spring Boot (that &lt;em&gt;isn&amp;rsquo;t&lt;/em&gt; the amazing JHipster?). Looks interesting&amp;hellip;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=vruk51nnr9s&amp;feature=share"&gt;A Spring Boot REST API powered by Redis, part 2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/domaframework/doma-spring-boot"&gt;A Spring Boot starter for the Doma mapping framework&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://medium.com/sipios/handle-r2dbc-in-spring-projects-fa96e65ca24d"&gt;A great blog, &lt;em&gt;Handle R2DBC in Spring Projects&lt;/em&gt;, by Thibault MONEGIER du SORBIER&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://tanzu.vmware.com/developer/guides/kubernetes/velero-gs/"&gt;A very useful guide to backups in Kubernetes, &lt;em&gt;Getting Started with Velero&lt;/em&gt;, by teammate and legend &lt;a href="https://twitter.com/tiffanyfayj"&gt;Tiffany Jernigan&lt;/a&gt;, is now available on the VMware Tanzu Developer Center&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/TheApacheTomcat/status/1356952799360282624?s=20"&gt;Apache Tomcat 10.0.2 has been released This is the first stable release of the 10.0.x series. Apache Tomcat 10.0.x targets Jakarta EE 9 (Servlet, WebSocket, EL, Pages, Authentication &amp;amp; Annotations)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.youtube.com/watch?app=desktop&amp;v=1i96a_0wCFM&amp;feature=youtu.be"&gt;Build a Secure Spring Data JPA Resource Server&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=XJoJCMfCSTk&amp;feature=emb_title"&gt;Building a Spring Boot REST API powered by Redis, with a React front end (part 1)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://medium.com/graalvm/graalvm-native-image-quick-reference-4ceb84560fd8"&gt;GraalVM Native Image Quick Reference&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://open.spotify.com/episode/3a6zZKPhiHnDIQdLAWyUOs?si=obyIclVKTOyeL8yG0hnv1Q&amp;nd=1"&gt;I was honored to have been a guest on the Devpod podcast. It was a fun interview and I hope you&amp;rsquo;ll enjoy it, too.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.meetup.com/seajug/events/276135388/"&gt;I&amp;rsquo;ll be speaking at the Seattle JUG Meetup on February 16th, 2021. Mark your calendars now and join us then!&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/JavaAtMicrosoft/status/1357078493746528259"&gt;Learn more about what Microsoft Azure has to offer Java developers? Attend this fast-paced, virtual intro session at the Microsoft Reactor led by Rory Preddy on Feb-10&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=bidnkrluql4&amp;feature=share"&gt;The Transparent Software Developer - some interesting insight in this video&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/VMware/status/1356739950620905472"&gt;We¡¯re excited to announce dates for VMware conferences slated for this year &amp;ndash; VMworld, CloudLIVE, Connect, and SpringOne!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>A Bootiful Podcast:  RSocket legend and new Reactor team member Oleh Dokuka</title>
     <link rel="alternate" href="https://spring.io/blog/2021/02/04/a-bootiful-podcast-rsocket-legend-and-new-reactor-team-member-oleh-dokuka" />
@@ -1801,136 +1835,6 @@ management.endpoint.metrics.enabled=true
   &lt;li&gt;&lt;a href="https://spring.io/blog/2021/01/13/spring-data-2020-0-3-and-2021-0-m2-released"&gt;Spring Data 2020.0.3 and 2021.0-M2 released&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href="https://spring.io/blog/2021/01/13/the-latest-on-azure-active-directory-integration"&gt;The latest on Azure Active Directory integration&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>YMNNALFT: Easy RPC with RSocket</title>
-    <link rel="alternate" href="https://spring.io/blog/2021/01/18/ymnnalft-easy-rpc-with-rsocket" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2020-12-30:4320</id>
-    <updated>2021-01-18T11:00:00Z</updated>
-    <content type="html">&lt;p&gt;Welcome to another installment of &lt;em&gt;You May Not Need Another Library For That&lt;/em&gt; (YMNNALFT)! I&amp;rsquo;ve spent a lot of time since 2016 illuminating (or trying to, anyway!) some of the more enormous opportunities in the Spring ecosystem in &lt;a href="http://bit.ly/spring-tips-playlist"&gt;my Spring Tips videos&lt;/a&gt;. Today, however, I come to you in a different spirit, wanting to focus on the little, sometimes hidden, gems that do fantastic things and that might spare you an additional third-party dependency and its implied complexity. &lt;/p&gt;
-&lt;p&gt;Integrating two services separated by a common, potentially volatile, and overwhelmed network is one of the most challenging computer science problems. &lt;/p&gt;
-&lt;p&gt;Quick aside: the most challenging problem in computer science is, of course, vertical layouts in CSS. &lt;/p&gt;
-&lt;img src="https://blog.appstudio.dev/wp-content/uploads/2018/12/css.gif" /&gt;
-&lt;p&gt;You could write a whole book about the different ways to integrate disparate systems and services. But, &lt;a href="https://twitter.com/ghohpe"&gt;Gregor Hohpe&lt;/a&gt; and &lt;a href="https://twitter.com/bobby_woolf"&gt;Bobby Woolf&lt;/a&gt; already did just that with their &lt;a href="https://www.amazon.com/Enterprise-Integration-Patterns-Designing-Deploying/dp/0321200683"&gt;&lt;em&gt;Enterprise Integration Patterns&lt;/em&gt;&lt;/a&gt; book, so I&amp;rsquo;ll use one of their lists.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Messaging&lt;/em&gt; is where a producer sends a message (with an enveloper and a payload) to a reliable, intermediary broker. That broker acts as the delivery service for messages between the producer and the consumer.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;RPC&lt;/em&gt;, or Remote Proxy Calls.., not that&amp;rsquo;s not it. Risky Procedure Calls? No&amp;hellip; Relatively Painless Calamities? No&amp;hellip; Remote Procedure Calls! That&amp;rsquo;s the stuff. RPC is where a consumer invokes methods (through some sort of network protocol like SOAP-RPC, Hessian, Burlap, Spring&amp;rsquo;s own HTTP Invoker, XML RPC, EJBs, RMI, DCOM, CORBA, etc.) on remote objects. The experience is meant to feel like invoking methods on a local object in the same virtual machine.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;File Transfer&lt;/em&gt; is where a producer transmits a file to a shared, agreed-upon (network) file system, and the consumer consumes messages deposited there. This is the basis of so many batch processes today. If you haven&amp;rsquo;t, you should check out Spring Batch. 9/10 dentists agree: Spring Batch keeps teeth clean and integration processes lean. &lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Shared databases&lt;/em&gt; is where a producer and a consumer read data from the same table (not recommended). Indeed, this one is a bit of an antipattern at this point, particularly in the context of microservices. &lt;/p&gt;
-&lt;p&gt;There&amp;rsquo;s definitely a discussion to be had around RPC&amp;rsquo;s merits versus messaging as a way to reliably integrate a producer and a consumer, but &lt;em&gt;this&lt;/em&gt; is not that discussion because I think I&amp;rsquo;ve found the best compromise: reactive, payload-agnostic, lightning-quick, observable, RSocket. &lt;a href="http://RSocket.io"&gt;RSocket&lt;/a&gt; is a binary protocol initially developed by engineers at Netflix who left and continued their work at Facebook. The protocol is built for scale &lt;em&gt;and&lt;/em&gt; speed and circumvents many of the limitations of HTTP 1-2 and gRPC. It is an endlessly exciting protocol for a ton of reasons: &lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;it supports proper bidirectional communication&lt;/li&gt;
-  &lt;li&gt;it supports many different message exchange patterns beyond mere request/response&lt;/li&gt;
-  &lt;li&gt;it supports metadata to propagate out-of-band-information like tokens&lt;/li&gt;
-  &lt;li&gt;it reifies the Reactive Streams specification concepts at the network protocol level (backpressure! On the wire! Huzzah!)&lt;/li&gt;
-  &lt;li&gt;It has a cool &lt;code&gt;.io&lt;/code&gt; domain, which everybody knows is critical to the success of technologies destined for the cloud&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;It&amp;rsquo;s a message envelope-centric protocol, but it is trivial to use, and it&amp;rsquo;s even more trivial to live that RPC-life if you want to.&lt;/p&gt;
-&lt;p&gt;There are numerous clients available for various languages, including Java. The Java client is built on top of &lt;a href="http://ProjectReactor.io"&gt;Project Reactor&lt;/a&gt;. It would&amp;rsquo;ve been &lt;em&gt;trivial&lt;/em&gt; - &lt;em&gt;TRIVIAL! I say&lt;/em&gt; - to integrate RSocket into a Spring application even if there were no native support in Spring itself. But there &lt;em&gt;is&lt;/em&gt; native support in Spring itself, and it&amp;rsquo;s incredible. The integration uses the same component model as the original WebSocket support from Spring Framework 4 uses. &lt;/p&gt;
-&lt;p&gt;Let&amp;rsquo;s look at a simple example service. &lt;/p&gt;
-&lt;p&gt;You&amp;rsquo;ll need the following dependencies.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;RSocket on &lt;a href="http://start.spring.io"&gt;the Spring Initializr&lt;/a&gt; - &lt;code&gt;org.springframework.boot&lt;/code&gt; : &lt;code&gt;spring-boot-starter-rsocket&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Here&amp;rsquo;s the code:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint java"&gt;package bootiful.rpc.server;&#xD;
-&#xD;
-import org.springframework.boot.SpringApplication;&#xD;
-import org.springframework.boot.autoconfigure.SpringBootApplication;&#xD;
-import org.springframework.messaging.handler.annotation.DestinationVariable;&#xD;
-import org.springframework.messaging.handler.annotation.MessageMapping;&#xD;
-import org.springframework.messaging.handler.annotation.Payload;&#xD;
-import org.springframework.stereotype.Controller;&#xD;
-&#xD;
-import java.util.Locale;&#xD;
-&#xD;
-@SpringBootApplication&#xD;
-public class BootifulApplication {&#xD;
-&#xD;
-	public static void main(String[] args) {&#xD;
-		System.setProperty(&amp;quot;spring.profiles.active&amp;quot;, &amp;quot;rpcserver&amp;quot;);&#xD;
-		SpringApplication.run(BootifulApplication.class, args);&#xD;
-	}&#xD;
-&#xD;
-}&#xD;
-&#xD;
-@Controller&#xD;
-class GreetingsController {&#xD;
-&#xD;
-	@MessageMapping(&amp;quot;greetings.{lang}&amp;quot;)&#xD;
-	String greet(@DestinationVariable(&amp;quot;lang&amp;quot;) Locale lang, @Payload String name) {&#xD;
-		System.out.println(&amp;quot;locale: &amp;quot; + lang.getLanguage());&#xD;
-		return &amp;quot;Hello, &amp;quot; + name + &amp;quot;!&amp;quot;;&#xD;
-	}&#xD;
-&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Here&amp;rsquo;s what I put into my &lt;code&gt;application.properties&lt;/code&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint properties"&gt;spring.rsocket.server.port=8888&#xD;
-spring.main.web-application-type=none
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;A controller is an object with methods, like RPC, but the client isn&amp;rsquo;t strictly speaking obliged to wait for a response. It can background the thread or disconnect entirely. Win-win. The protocol is more envelope-and-payload-centric behind the scenes than the component model lets on, so we get the best of both worlds. &lt;/p&gt;
-&lt;p&gt;Our service is up and running. If you want to invoke it, you can use &lt;a href="https://github.com/making/rsc"&gt;the handy-dandy &lt;code&gt;rsc&lt;/code&gt; CLI&lt;/a&gt;. &lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint shell"&gt;rsc tcp://localhost:8888  -r greetings.en -d &amp;#39;Josh&amp;#39; 
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;You should get output like this: &lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint shell"&gt;Hello, Josh!
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;That might be enough, but most of us will want to talk to our RSocket services from our client code. There are clients from several different programming languages, including, but not limited to, JavaScript, Go, .NET (C#), Rust, C++, Ruby, Python, and more. (and, worst case, you can always wrap the C++ or Java ports, right?) &lt;/p&gt;
-&lt;p&gt;Let&amp;rsquo;s look at building a client to talk to the newly-minted services. We&amp;rsquo;ll use the &lt;code&gt;RSocketRequester&lt;/code&gt;, a client that we can use to speak to an RSocket endpoint. &lt;/p&gt;
-&lt;p&gt;You&amp;rsquo;ll need the following dependency:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;RSocket on &lt;a href="http://start.spring.io"&gt;the Spring Initializr&lt;/a&gt; - &lt;code&gt;org.springframework.boot&lt;/code&gt; : &lt;code&gt;spring-boot-starter-rsocket&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Here&amp;rsquo;s the code:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint java"&gt;package bootiful.rpc.client;&#xD;
-&#xD;
-import lombok.SneakyThrows;&#xD;
-import org.springframework.boot.SpringApplication;&#xD;
-import org.springframework.boot.autoconfigure.SpringBootApplication;&#xD;
-import org.springframework.boot.context.event.ApplicationReadyEvent;&#xD;
-import org.springframework.context.ApplicationListener;&#xD;
-import org.springframework.context.annotation.Bean;&#xD;
-import org.springframework.messaging.rsocket.RSocketRequester;&#xD;
-&#xD;
-import java.util.Locale;&#xD;
-&#xD;
-@SpringBootApplication&#xD;
-public class BootifulApplication {&#xD;
-&#xD;
-	@SneakyThrows&#xD;
-	public static void main(String[] args) {&#xD;
-		System.setProperty(&amp;quot;spring.profiles.active&amp;quot;, &amp;quot;rpcclient&amp;quot;);&#xD;
-		SpringApplication.run(BootifulApplication.class, args);&#xD;
-		Thread.sleep(5_000);&#xD;
-	}&#xD;
-&#xD;
-	@Bean&#xD;
-	RSocketRequester rSocketRequester(RSocketRequester.Builder builder) {&#xD;
-		return builder.tcp(&amp;quot;localhost&amp;quot;, 8888);&#xD;
-	}&#xD;
-&#xD;
-	@Bean&#xD;
-	ApplicationListener&amp;lt;ApplicationReadyEvent&amp;gt; ready(RSocketRequester rSocketRequester) {&#xD;
-		return event -&amp;gt; rSocketRequester //&#xD;
-				.route(&amp;quot;greetings.{lang}&amp;quot;, Locale.ENGLISH) //&#xD;
-				.data(&amp;quot;World&amp;quot;).retrieveMono(String.class)//&#xD;
-				.subscribe(greetings -&amp;gt; System.out.println(&amp;quot;got: &amp;quot; + greetings));&#xD;
-	}&#xD;
-&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Here&amp;rsquo;s what I put into my &lt;code&gt;application.properties&lt;/code&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint properties"&gt;spring.main.web-application-type=none
-&lt;/code&gt;&lt;/pre&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Here, you can see that the default client experience of an RSocket service is more like that of an HTTP endpoint or an exchange with a message queue. We&amp;rsquo;re sending request messages to endpoints, which are more like URIs, not distributed methods. That said, if you &lt;em&gt;really&lt;/em&gt; are all about that RPC life and don&amp;rsquo;t mind an &lt;em&gt;optional&lt;/em&gt; extra dependency. You &lt;em&gt;might&lt;/em&gt; &lt;a href="http://github.com/spring-projects-experimental"&gt;consider the &lt;em&gt;experimental&lt;/em&gt; Spring Retrosocket project&lt;/a&gt;, which we launched to support this use case precisely. It provides a Netflix-feign like RPC experience, but for RSocket. &lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Did you like this gem at a glance approach? Did you learn anything? As always, I&amp;rsquo;m keen on hearing from you, so &lt;a href="http://twitter.com/starbuxman"&gt;please sound off on Twitter (@starbuxman) &lt;/a&gt;! I&amp;rsquo;ll be back with another installment of &lt;em&gt;YMNNALFT&lt;/em&gt;, so be sure not to miss that. &lt;/p&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>
