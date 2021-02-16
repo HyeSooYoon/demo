@@ -12,6 +12,12 @@
 
 <script type="text/javascript">
  
+	document.querySelector('shot').addEventListener('click', ()=> {
+		saveAs(canvas.toDataURL('image/png'),"capture-test.png");
+		}
+	)
+
+ 
 	function saveAs(uri, filename) {
 
 	   var link = document.createElement('a');
@@ -27,13 +33,6 @@
 		window.open(uri);
 		}
 	 }
-	 
-   document.querySelector('#shot').addEventListener('click', e => {
-		html2canvas(document.querySelector("#capture")).then(canvas => {
-			saveAs(canvas.toDataURL('image/png'),"capture-test.png");
-		});
-	}
-   )
 	 
    $(document).ready(function(){ 
 	    

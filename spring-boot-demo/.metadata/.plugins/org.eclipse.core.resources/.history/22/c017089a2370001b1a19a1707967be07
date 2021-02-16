@@ -31,7 +31,7 @@
    document.querySelector('#shot').addEventListener('click', e => {
 		html2canvas(document.querySelector("#capture")).then(canvas => {
 			saveAs(canvas.toDataURL('image/png'),"capture-test.png");
-		});
+			});
 	}
    )
 	 

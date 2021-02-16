@@ -6,13 +6,22 @@
 <body>
 
 <button id="shot">screen shot</button>
+<!-- Ä¸ÃÄÇÒ ¿µ¿ª -->
 <div id="capture" style="padding: 10px; background: #f5da55">
 <h4 style="color: #000; ">mustache is not work....</h4>
 </div>
 
 <script type="text/javascript">
  
-	function saveAs(uri, filename) {
+   $(document).ready(function(){
+	   
+	   $("#shot").on("click", function(){
+ 		html2canvas(document.querySelector("#capture")).then(canvas => {
+		saveAs(canvas.toDataURL('image/png'),"capture-test.png");
+		});
+  	  });
+	   
+   function saveAs(uri, filename) {
 
 	   var link = document.createElement('a');
 		
@@ -26,17 +35,8 @@
 		} else {
 		window.open(uri);
 		}
-	 }
-	 
-   document.querySelector('#shot').addEventListener('click', e => {
-		html2canvas(document.querySelector("#capture")).then(canvas => {
-			saveAs(canvas.toDataURL('image/png'),"capture-test.png");
-		});
 	}
-   )
-	 
-   $(document).ready(function(){ 
-	    
+	   
 	  var template = $('#some-template').html();
 	  var data = {
 			  name: "gildong",

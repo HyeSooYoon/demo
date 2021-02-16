@@ -12,7 +12,15 @@
 
 <script type="text/javascript">
  
-	function saveAs(uri, filename) {
+   $(document).ready(function(){
+	   
+	   $("#shot").on("click", function(){
+ 		html2canvas(document.querySelector("#capture")).then(canvas => {
+		saveAs(canvas.toDataURL('image/png'),"capture-test.png");
+		});
+  	  });
+	   
+   function saveAs(uri, filename) {
 
 	   var link = document.createElement('a');
 		
@@ -27,16 +35,7 @@
 		window.open(uri);
 		}
 	 }
-	 
-   document.querySelector('#shot').addEventListener('click', e => {
-		html2canvas(document.querySelector("#capture")).then(canvas => {
-			saveAs(canvas.toDataURL('image/png'),"capture-test.png");
-		});
-	}
-   )
-	 
-   $(document).ready(function(){ 
-	    
+	   
 	  var template = $('#some-template').html();
 	  var data = {
 			  name: "gildong",
