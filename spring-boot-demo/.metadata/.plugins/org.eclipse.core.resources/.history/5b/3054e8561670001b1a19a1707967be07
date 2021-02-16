@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>스프링부트 웹서비스</title>
+  
+  
+  
+</head>
+{{>layout/header}} 
+<body>
+<div id="content"></div>
+<script type="text/x-mustache" id="some-template">
+ <p></p>
+ <p>{{name}}</p>
+</script>
+
+</body>
+</html>

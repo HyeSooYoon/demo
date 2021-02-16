@@ -1,0 +1,10 @@
+{{>layout/header}} 
+<body>
+<div id="content"></div>
+<script type="text/x-mustache" id="some-template">
+ <p></p>
+ <p>{{name}}</p>
+</script>
+
+</body>
+</html>

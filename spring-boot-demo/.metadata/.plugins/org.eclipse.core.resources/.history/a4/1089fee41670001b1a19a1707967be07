@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  {{>layout/header}}  
+</head>
+<body>
+<script type="text/javascript">
+
+   $(document).ready(function(){
+	   
+	  var template = $('#some-template').html();
+	  var data = {
+			  name: "gildong",
+			  lastName: "dd"
+	  };
+	  var html = Mustache.render(template, data);
+	  $('#content').append(html);
+	    
+   });
+   
+</script>
+<div id="content"></div>
+<script type="text/x-mustache" id="some-template">
+ <p></p>
+ <p>{{name}}</p>
+</script>
+
+</body>
+</html>
