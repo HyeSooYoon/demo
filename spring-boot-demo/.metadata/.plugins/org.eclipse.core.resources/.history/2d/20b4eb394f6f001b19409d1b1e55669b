@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TEST</title>
+<meta charset="UTF-8" />
+<script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.0.1/mustache.min.js"></script>
+</head>
+<body>  
+	
+    <script>  
+   
+    let data = {
+    	    name: "홍길동",
+    	    age: function () {
+    	        let birthYear = 1576;
+    	        return new Date().getFullYear() - birthYear;
+    	    }
+    	};
+    
+  	//단일 데이터 메칭 
+    function temp_exam1(){
+    	var template = $('#templete1').html();
+    	Mustache.parse(template);
+    	
+    	var rendered = Mustache.render(template, data);
+    	$('#result1').html(rendered);
+    }
+
+    temp_exam1();
+    
+	
+    </script> 
+    
+    <div id="result1"></div>
+	<div id="templete1" type="x-tmpl-mustache" class="hide">
+		 <b>{{name}}</b> is babo. <br />
+		<span style="font-size:11pt;color:red">{{age}} years old.</span> 
+	</div>
+	
+    
+    
+    
+    
+</body>
+</html>

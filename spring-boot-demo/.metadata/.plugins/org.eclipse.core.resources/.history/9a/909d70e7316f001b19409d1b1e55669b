@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+</head>
+<body>
+	<h3>조회결과</h3>
+	<label>이름 : </label><span>{{name}}</span><br>
+	<label>나이 : </label><span>{{age}}</span><br>
+	<label>꿈 : </label><span>{{vision}}</span>
+</body>
+</html>
