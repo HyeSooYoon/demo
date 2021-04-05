@@ -6,15 +6,23 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="MethodArgumentNotValidException"/>
+		<item key="selection" value="vue"/>
 		<list key="findhistory">
+			<item value="vue"/>
+			<item value="npm"/>
+			<item value="type"/>
+			<item value="template"/>
+			<item value="import"/>
+			<item value="content"/>
+			<item value="store"/>
+			<item value="component.js"/>
+			<item value="include"/>
 			<item value="MethodArgumentNotValidException"/>
 			<item value="boot"/>
 			<item value="validation"/>
 			<item value="Value"/>
 			<item value="@Value"/>
 			<item value="RES_001"/>
-			<item value=""/>
 		</list>
 		<list key="replacehistory">
 		</list>
